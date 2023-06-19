@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Alata';
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+#salasChat{
+    height: 100vh;
+    width: 29vw;
+    overflow: auto;
+    background-color: #3D3C3C;
+}
+
+.content{
+    padding: 15px;
+}
+
+#pesquisa{
+    position: sticky;
+    top: 0;
+    height: 7vw;
+    width: 100%;
+    background-color: #212121;
+    z-index: 1;
+    padding: 10px;
+}
+#pesquisa p{
+    color: white;
+    margin-top: 1.5vw;
+    margin-left: 2vw;
+    font-size: 1.5vw;
+}
+#pesquisa img{
+    float: right;
+    margin-top: -3.2vw;
+    margin-right: 2vw;
+    width: 1.8vw;
+}
+#cardSala img{
+    width: 4.5vw;
+    height: 4.5vw;
+    border-radius: 12.5vw;
+    margin-left: 1vw;
+}
+#cardSala p{
+    float: left;
+    font-size: 1.5vw;
+    color: white;
+    margin-left: 6.5vw;
+    margin-top: -3.3vw;
+}
+.linhaInsana{
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+    width: 25vw;
+}
+#cardSala{
+    margin-top: 1.5vw;
+}
+#cardSala2 img{
+    width: 4.5vw;
+    height: 4.5vw;
+    border-radius: 12.5vw;
+    margin-left: 1vw;
+}
+#cardSala2 p{
+    float: left;
+    font-size: 1.5vw;
+    color: white;
+    margin-left: 6.5vw;
+    margin-top: -4.4vw;
+}
+#cardSala2{
+    margin-top: 1.5vw;
+}
+#nomeChat{
+    position: sticky;
+    height: 7vw;
+    background-color: #1d1d1d;
+    width: 100%;
+    margin: 0;
+}
+#nomeChat img{
+    width: 4vw;
+    border-radius: 12.5vw;
+    margin-top: 1.5vw;
+    margin-left: 1.5vw;
+    float: left;
+}
+#nomeChat p{
+    font-size: 1.5vw;
+    color: white;
+    margin-left: 1vw;
+    float: left;
+    margin-top: 2.3vw;
+}
+#caixaMensagem{
+    background-color: #171717;
+    height: 6.3vw;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5vw;
+}
+#frede{
+    width: 3.5vw;
+    margin-left: 2vw;
+    margin-top: 0.8vw;
+    float: left;
+}
+#caixaTexto{
+    float: left;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+#caixaTexto input{
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.55);
+}
+#imagenzinhas{
+    margin-left: 55vw;
+}
+#imagenzinhas img{
+    width: 2vw;
+    margin-top: 1.7vw;
+    margin-left: 2vw;
+}
+#mensagens{
+    flex-grow: 1;
+    background-color: #393737;
+    width: 100%;
+    max-height: 80vh;
+    overflow: auto;
+}
+#mensagemDestinatario{
+    margin-bottom: 10vw;
+}
+#caixaDestinatario{
+    height: auto;
+    width: 30vw;
+    background-color: #2C2B2B;
+    border-radius: 1vw;
+    box-shadow: 0vw 0.3vw 0.3vw rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    margin-bottom: 0.2vw;
+}
+#caixaDestinatario p{
+    margin: 1vw;
+    color: white;
+    font-size: 1.3vw;
+}
+#mensagemRemetente{
+    width: 30vw;
+    float: right;
+    margin-top: -10vw;
+}
+#caixaRemetente{
+    height: auto;
+    width: 30vw;
+    background-color: #1D1D1D;
+    border-radius: 1vw;
+    box-shadow: 0vw 0.3vw 0.3vw rgba(0, 0, 0, 0.25);
+    padding: 5px;
+}
+#caixaRemetente p{
+    margin: 1vw;
+    color: white;
+    font-size: 1.3vw;
+}
+#dataRemetente{
+    color: white;
+}
+#dataDestinatario{
+    color: white;
+    margin-bottom: 1vw;
+}
